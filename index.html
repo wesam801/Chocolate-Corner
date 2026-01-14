@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كفتريا ركن الشوكلاتة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            font-family: 'Cairo', sans-serif;
+        }
+       
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'chocolate-brown': '#881719',
+              'chocolate-brown-light': '#a52a2a',
+              'cream': '#f9f9f9'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="icon" href="dist/images/logo.png" />
+  </head>
+  <body class="bg-cream text-chocolate-brown">
+    <header class="bg-chocolate-brown-light shadow-lg border-b border-chocolate-brown">
+      <div class="max-w-7xl mx-auto px-4 py-4">
+        <div class="flex items-center justify-between">
+          <a href="#" class="flex items-center">
+            <img src="dist/images/logo.png" alt="Logo" class="h-12 w-auto" />
+          </a>
+          <nav class="hidden md:flex">
+            <ul class="flex space-x-6 space-x-reverse">
+              <li><a class="text-cream font-semibold hover:text-chocolate-brown hover:bg-cream px-3 py-2 rounded transition-colors" href="index.html">الصفحة الرئيسية</a></li>
+              <li><a class="text-cream hover:text-chocolate-brown hover:bg-cream px-3 py-2 rounded transition-colors" href="#content">الأقسام الرئيسية</a></li>
+              <li>
+                <a
+                  class="bg-cream text-chocolate-brown px-4 py-2 rounded-lg hover:bg-chocolate-brown hover:text-cream transition-colors font-semibold border border-cream"
+                  href="https://api.whatsapp.com/send/?phone=352681137146&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7+%D9%87%D9%84+%D9%8A%D9%85%D9%83%D9%86%D9%83+%D8%A7%D9%86+%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF%D9%86%D9%8A&type=phone_number&app_absent=0"
+                  >تواصل معنا</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="md:hidden text-cream hover:text-chocolate-brown hover:bg-cream p-2 rounded">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="bg-chocolate-brown-light text-cream py-20 relative overflow-hidden border-b border-chocolate-brown">
+      <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 text-cream">كفتريا ركن الشوكلاتة</h1>
+        <p class="text-xl md:text-2xl text-cream opacity-90">أشهى الحلويات والمشروبات في مكان واحد</p>
+        <div class="mt-8">
+          <span class="inline-block bg-chocolate-brown text-cream px-6 py-3 rounded-full font-semibold text-lg shadow-lg border border-chocolate-brown">🍫 أفضل تجربة شوكولاتة 🍫</span>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-cream" id="content">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-chocolate-brown">قائمة المنتجات</h2>
+          <div class="w-24 h-1 bg-chocolate-brown mx-auto mt-4"></div>
+          <p class="text-chocolate-brown mt-4 opacity-70">اختر من أشهى المنتجات والحلويات</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="boxs">
+        <!-- Modal -->
+        
+      </div>
+    </section>
+    <!-- start footer  -->
+    <footer class="bg-chocolate-brown-light text-cream py-8 border-t border-chocolate-brown">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <p class="text-cream opacity-90">
+          كل الحقوق محفوظة لصالح كفتريا
+          <a href="#" class="text-chocolate-brown hover:text-cream font-semibold bg-cream px-3 py-1 rounded border border-chocolate-brown">ركن الشوكلاتة</a>
+          بواسطة
+          <a href="https://www.facebook.com/we5am.1/" class="text-cream hover:text-chocolate-brown hover:bg-cream px-2 py-1 rounded transition-colors font-semibold border border-cream">wesam shaker</a>
+        </p>
+        <div class="mt-4 text-cream text-sm opacity-70">
+          🍫 أفضل تجربة شوكولاتة في المدينة 🍫
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+    <button class="fixed bottom-8 right-8 bg-chocolate-brown hover:bg-cream text-cream hover:text-chocolate-brown p-3 rounded-full shadow-lg transition-all duration-300 opacity-0 pointer-events-none z-40 border border-chocolate-brown" id="button-top" onclick="scrollToTop()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+        />
+      </svg>
+    </button>
+
+    <div class="fixed inset-0 bg-cream flex items-center justify-center z-50 transition-opacity duration-300" id="loading">
+      <div class="text-center">
+        <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-chocolate-brown mx-auto mb-4"></div>
+        <h2 class="text-xl font-semibold text-chocolate-brown">يتم تحميل الصفحة الرجاء الانتظار</h2>
+        <p class="text-chocolate-brown mt-2 opacity-80">🍫 كفتريا ركن الشوكلاتة 🍫</p>
+      </div>
+    </div>
+    <script>
+      function openModal(modalId) {
+        const modal = document.getElementById(modalId);
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal(modalId) {
+        const modal = document.getElementById(modalId);
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }
+
+      // Close modal when clicking outside
+      document.addEventListener('click', function(event) {
+        if (event.target.classList.contains('bg-black') && event.target.classList.contains('bg-opacity-50')) {
+          event.target.classList.add('hidden');
+          document.body.style.overflow = 'auto';
+        }
+      });
+
+      // Close modal with Escape key
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+          const openModals = document.querySelectorAll('.fixed.inset-0.bg-black.bg-opacity-50:not(.hidden)');
+          openModals.forEach(modal => {
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+          });
+        }
+      });
+
+      window.onscroll = function () {
+        var button = document.getElementById("button-top");
+
+        if (
+          document.body.scrollTop <= 70 &&
+          document.documentElement.scrollTop <= 70
+        ) {
+          button.classList.add("opacity-0", "pointer-events-none");
+        } else {
+          button.classList.remove("opacity-0", "pointer-events-none");
+        }
+      };
+
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      window.onload = function () {
+        const loading = document.getElementById("loading");
+        loading.classList.add("hidden");
+      };
+    </script>
+    <script>
+      fetch("dist/json/products.json")
+        .then((response) => response.json())
+        .then((data) => {
+          displaySections(data.sections);
+        })
+        .catch((error) => console.error("Error loading the JSON:", error));
+      function displaySections(sections) {
+        const sectionsContainer = document.getElementById("boxs");
+        sections.forEach((section) => {
+          // إنشاء العناصر الخاصة بالقسم
+          const sectionElement = document.createElement("div");
+          sectionElement.classList.add("bg-cream", "rounded-lg", "shadow-lg", "overflow-hidden", "hover:shadow-xl", "hover:bg-chocolate-brown","hover:text-cream", "transition-all", "duration-300", "cursor-pointer", "border", "border-chocolate-brown");
+          sectionElement.onclick = () => openModal(`exampleModal-${section.id}`);
+          sectionElement.innerHTML = `
+        <div class="h-48 overflow-hidden">
+          <img src="${section.imgS}" alt="${section.name}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-3 text-center">
+          <h3 class="text-xl font-semibold rounded transition-colors">
+            ${section.name}
+          </h3>
+        </div>
+      `;
+          sectionsContainer.appendChild(sectionElement);
+
+          // إنشاء المودال الخاص بالقسم
+          const modalElement = document.createElement("div");
+          modalElement.classList.add("fixed", "inset-0", "bg-black", "bg-opacity-50", "flex", "items-center", "justify-center", "z-50", "hidden");
+          modalElement.id = `exampleModal-${section.id}`;
+
+          modalElement.innerHTML = `
+        <div class="bg-cream rounded-lg shadow-2xl max-w-4xl w-full mx-4 max-h-[90vh] overflow-hidden border-2 border-chocolate-brown">
+          <div class="bg-chocolate-brown text-cream px-6 py-4 flex justify-between items-center">
+            <h2 class="text-xl font-bold">${section.name}</h2>
+            <button onclick="closeModal('${modalElement.id}')" class="text-cream hover:bg-cream hover:text-chocolate-brown p-1 rounded transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="p-6 overflow-y-auto max-h-[70vh] bg-cream">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="modal-products-${section.id}">
+               ${section.products
+                 .map(
+                   (product) => `
+                  <div class="bg-chocolate-brown border border-cream rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 text-cream">
+                    <div class="h-32 overflow-hidden">
+                      <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                    </div>
+                    <div class="p-4">
+                      <h3 class="font-semibold text-cream mb-2 text-sm">${product.name}</h3>
+                      <div class="flex items-center justify-between">
+                        <span class="text-cream font-bold text-lg">${product.price} .TRY</span>
+                      </div>
+                    </div>
+                  </div>
+                `
+                 )
+                 .join("")}
+            </div>
+          </div>
+        </div>
+      `;
+          document.body.appendChild(modalElement);
+        });
+      }
+    </script>
+  </body>
+</html>

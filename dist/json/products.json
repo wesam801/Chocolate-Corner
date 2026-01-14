@@ -1,0 +1,568 @@
+{
+    "sections": [
+      {
+        "id": 1,
+        "name": "قسم الوافل والكريب",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "وافل شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "150"
+          },
+          {
+            "name": "وافل نيوتيلا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "180"
+          },
+          {
+            "name": "وافل اكسترا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "وافل مكس",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "كريب شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "130"
+          },
+          {
+            "name": "كريب دبي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "كريب بستاشيو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "كريب كيت كات",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "كريب لوتس",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "كريب كورنر باربي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "فوتشيني",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "سوشي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "220"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "قسم البان كيك والغوفر",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "بابلي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "180"
+          },
+          {
+            "name": "بان كيك شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "180"
+          },
+          {
+            "name": "بان كيك قشطة وعسل",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "بان كيك كورنر",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "غوفر شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "نصف وافل",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "نصف وافل اكسترا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "قسم السلطات والحلويات العربية",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "سلطة فواكه",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "سلطة فواكه نوتيلا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "سلطة قشطة ومكسرات",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "ارمادا - وايت- شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "170"
+          },
+          {
+            "name": "كيت كات",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "سلطة كورنر",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "امبراطور فواكه",
+            "image": "./dist/images/sushi.jpg",
+            "price": "150"
+          },
+          {
+            "name": "امبراطور قشاطي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "150"
+          },
+          {
+            "name": "امبراطور افكادو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "180"
+          },
+          {
+            "name": "كنافة جبنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "كنافة اكسترا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "200"
+          },
+          {
+            "name": "كنافة مع بوظة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "120"
+          },
+          {
+            "name": "كنافة مع قشطة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "120"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "قسم المشروبات الباردة",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "كوكتيل موز وحليب",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "كوكتيل فواكه",
+            "image": "./dist/images/sushi.jpg",
+            "price": "120"
+          },
+          {
+            "name": "كوكتيل مكسرات",
+            "image": "./dist/images/sushi.jpg",
+            "price": "140"
+          },
+          {
+            "name": "كوكتيل موز وحليب وفريز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "120"
+          },
+          {
+            "name": "كوكتيل الركن",
+            "image": "./dist/images/sushi.jpg",
+            "price": "150"
+          },
+          {
+            "name": "ميلك شيك",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "ميلك شيك كرز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "ميلك شيك توت",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "ميلك شيك فريز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "عصير برتقال",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "عصير ليمون",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "عصير مانجو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "عصير اناناس",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "عصير جمايكا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "عصير بارو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "سموذي فريز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "سموذي شوكولا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "سموذي توت",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "سموذي مانجو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "سموذي الركن",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "موهيتو مشكل",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "بولو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "90"
+          },
+          {
+            "name": "ايس تي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "قسم القهوات الباردة",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "قهوة بلوبري باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة لاتيه باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة سبانش باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "فرابتشينو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة V60 باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة موكا باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة ميكاتو باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قهوة بستاشيو باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "قهوة ستروبري باردة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "قسم القهوات الساخنة",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "قهوة اسبريسو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "30"
+          },
+          {
+            "name": "قهوة كولد برو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "30"
+          },
+          {
+            "name": "قهوة خليجية",
+            "image": "./dist/images/sushi.jpg",
+            "price": "50"
+          },
+          {
+            "name": "قهوة تركية",
+            "image": "./dist/images/sushi.jpg",
+            "price": "30"
+          },
+          {
+            "name": "قهوة عثمانية",
+            "image": "./dist/images/sushi.jpg",
+            "price": "50"
+          },
+          {
+            "name": "قهوة بلوبري ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة لاتيه ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة سبانش ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "كابتشينو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة موكا ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة ميكاتو ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة بستاشيو ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "قهوة ستروبري ساخنة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "هوت شوكلت",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "قسم قطع الحلويات",
+        "imgS": "./dist/images/sushi.jpg",
+        "products": [
+          {
+            "name": "قطعة كاتو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "50"
+          },
+          {
+            "name": "كاتو اكسترا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "بونتي",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "لوكانز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "لوتس",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "ريد فلفيت",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "سنيكرز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "روشيه",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "لوزية",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "بستاشيو كيك",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "تشيز كيك",
+            "image": "./dist/images/sushi.jpg",
+            "price": "60"
+          },
+          {
+            "name": "ترليتشا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "50"
+          },
+          {
+            "name": "سوكسيه",
+            "image": "./dist/images/sushi.jpg",
+            "price": "40"
+          },
+          {
+            "name": "براونز مع بوظة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "قشطوطة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "معجوقة",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "كلير",
+            "image": "./dist/images/sushi.jpg",
+            "price": "40"
+          },
+          {
+            "name": "سان سيباستيان",
+            "image": "./dist/images/sushi.jpg",
+            "price": "100"
+          },
+          {
+            "name": "كوكيز",
+            "image": "./dist/images/sushi.jpg",
+            "price": "30"
+          },
+          {
+            "name": "كيكة احمد",
+            "image": "./dist/images/sushi.jpg",
+            "price": "50"
+          },
+          {
+            "name": "بوظة مشكل",
+            "image": "./dist/images/sushi.jpg",
+            "price": "70"
+          },
+          {
+            "name": "بوظة مكسرات",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "شوكولامو",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "كاسيتا",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          },
+          {
+            "name": "فوندون كيك",
+            "image": "./dist/images/sushi.jpg",
+            "price": "80"
+          }
+        ]
+      }
+    ]
+  }
